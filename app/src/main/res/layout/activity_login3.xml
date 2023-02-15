@@ -1,0 +1,30 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgt">
+    <TextView
+        android:id="@+id/b"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="cancion:"
+        android:padding="15px"
+        android:layout_marginTop="55px"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="320px"
+        android:background="@drawable/tik">
+
+    </TextView>
+
+</RelativeLayout>
+

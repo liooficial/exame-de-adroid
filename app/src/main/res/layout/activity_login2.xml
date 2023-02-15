@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgf"
+    >
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Nombre"
+            android:textSize="50sp"
+            />
+        <TextView
+            android:id="@+id/edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nom"
+            android:layout_centerHorizontal="true"
+            android:hint="Edad"
+            android:textSize="50sp"
+            />
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edad"
+            android:hint="Telefono"
+            android:textSize="50sp"
+            />
+        <TextView
+            android:id="@+id/nac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tel"
+            android:hint="Fecha de nacimiento"
+            android:layout_centerHorizontal="true"
+            android:textSize="50sp"
+            />
+        <TextView
+            android:id="@+id/gen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nac"
+            android:layout_centerHorizontal="true"
+            android:hint="genero"
+            android:textSize="50sp"
+            />
+
+
+
+</RelativeLayout>

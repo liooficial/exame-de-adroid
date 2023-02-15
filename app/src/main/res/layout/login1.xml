@@ -1,0 +1,86 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+    <TextView
+        android:id="@+id/img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/instagram" />
+        <TextView
+            android:id="@+id/usu_t"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_alignBottom="@+id/usuario"
+            android:layout_toLeftOf="@+id/usuario"
+            android:background="@drawable/usuario">
+        </TextView>
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/img"
+        android:hint="usuario        "
+        android:layout_marginBottom="36dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"></EditText>
+
+    <TextView
+        android:id="@+id/t_con"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/contraseña"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/contraseña"
+        android:background="@drawable/seguro">
+
+    </TextView>
+
+        <EditText
+            android:id="@+id/contraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_alignLeft="@+id/img"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/usuario"
+            android:hint="contraseña" >
+
+        </EditText>
+    <Button
+        android:id="@+id/inicioo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iniciar sesion"
+        android:textSize="30dp"
+        android:layout_below="@+id/contraseña"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bgf"
+        android:padding="10dp"
+        >
+    </Button>
+    <TextView
+        android:id="@+id/tlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="42dp"
+        android:layout_below="@+id/inicioo">
+
+    </TextView>
+</RelativeLayout>
